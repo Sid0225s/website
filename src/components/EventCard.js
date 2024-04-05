@@ -8,7 +8,7 @@ export default function EventCard({ details }) {
           <img src={details.img} alt="project" className="h-full w-full" />
         </div>
         <div className="mt-2">
-          <div className="w-full bottom-0 text-black font-semibold">{details.title}</div>
+          <div className="w-full bottom-0 text-black font-semibold raleway">{details.title}</div>
           <div className="w-full bottom-0 text-black text-sm text-left">
             <b>Date:</b> {details.date}
           </div>

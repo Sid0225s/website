@@ -8,7 +8,7 @@ export default function ProjectCard({ details }) {
           <img src={details.img} alt="project" className="h-full w-full" />
         </div>
         <div className="mt-2">
-          <div className="w-full bottom-0 text-black font-semibold">{details.title}</div>
+          <div className="w-full bottom-0 text-black font-semibold raleway">{details.title}</div>
           <div className="w-full bottom-0 text-black text-sm text-left">
             <b>Proposed By:</b> {details.students.map(((student, i) => <span key={i}>{student}{i!==details.students.length - 1 && ', '}</span>))}
           </div>

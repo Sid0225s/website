@@ -21,6 +21,11 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(4, 1, 51) 100%);
 .shadow-card{
     box-shadow: 0px 2px 5px 5px #ffffff50;
 }
+.vertical-writing{
+    writing-mode: vertical-rl;
+}
+.member-profile-card .linkedin-section{height: 0; transition: all 0.25s ease-in-out;}
+.member-profile-card:hover .linkedin-section{height: 40px;}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {

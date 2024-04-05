@@ -4,6 +4,7 @@ import { FaAnglesRight } from "react-icons/fa6";
 import { FaHome, FaInfoCircle } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { MdEmojiEvents } from "react-icons/md";
+import { FaPeopleGroup } from "react-icons/fa6";
 import Div100vh from "react-div-100vh";
 import { Link } from "react-router-dom";
 
@@ -33,6 +34,10 @@ export default function Navbar() {
         <Link to={'/events'} onClick={() => setNavbarOpen(navBarOpen => false)} className="flex justify-center items-center flex-col gap-2 w-full py-2 hover:bg-[#FF5722] duration-300 cursor-pointer">
           <MdEmojiEvents color="white" size={20} />
           <div className="text-[10px] text-white">EVENTS</div>
+        </Link>
+        <Link to={'/team'} onClick={() => setNavbarOpen(navBarOpen => false)} className="flex justify-center items-center flex-col gap-2 w-full py-2 hover:bg-[#FF5722] duration-300 cursor-pointer">
+          <FaPeopleGroup color="white" size={20} />
+          <div className="text-[10px] text-white">TEAM</div>
         </Link>
       </div>
     </Div100vh>

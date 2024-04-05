@@ -8,6 +8,7 @@ import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
 import Events from "./pages/Events.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Team from "./pages/Team.js";
 
 export default function App() {
   const generateXPosition = () => {
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </Div100vh>
     </BrowserRouter>
