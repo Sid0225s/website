@@ -1,8 +1,10 @@
 import React from "react";
-import eventImg1 from "../assets/Events/learntoglide.jpeg";
+// import eventImg1 from "../assets/Events/learntoglide.jpeg";
 import eventImg2 from "../assets/Events/swworkshop.jpeg";
 import eventImg3 from "../assets/Events/20240322_015013_0000.png";
 import eventImg4 from "../assets/Events/IMG-20240322-WA0010.jpg";
+import eventImg5 from "../assets/Events/mech.jpg";
+import eventImg6 from "../assets/Events/guest.jpg";
 import EventCard from "../components/EventCard";
 
 export default function Events() {
@@ -10,17 +12,23 @@ export default function Events() {
     {
       img: eventImg3,
       title: "Battle Strike",
-      date: "17-03-2024",
+      date: "12-03-2024",
     },
     {
       img: eventImg4,
       title: "Treasure Hunt",
-      date: "15-03-2024",
+      date: "10-03-2024",
     },
     {
-      img: eventImg1,
-      title: "Automobileio",
-      date: "22-03-2023",
+      img: eventImg5,
+      title: "Mechanical Day",
+      date: "03-04-2024",
+    },
+
+    {
+      img: eventImg6,
+      title: "Guest Lecture",
+      date: "26-03-2024",
     },
     {
       img: eventImg2,
